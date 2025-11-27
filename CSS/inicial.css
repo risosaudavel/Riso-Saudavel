@@ -1,32 +1,32 @@
 /*HEADER*/
 
-body{
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f7f5f0;
 }
 
 header {
-    background-color: #88b990;;
+    background-color: #88b990;
+    padding: 1vw 5vw;
 }
 
 nav {
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-h1{
+h1 {
     height: auto;
-    width: 15vw;
-    margin: 15px 0 0 20px;
+    width: 200px;
 }
 
-ul.menu{
-display: flex;
-justify-content: space-between;
-margin: 40px 50px 0 0;
+ul.menu {
+    display: flex;
+    justify-content: space-between;
 }
 
-li{
+li {
     display: flex;
     justify-content: space-between;
     padding: 0 2vw 0 0;
@@ -35,3 +35,142 @@ li{
     color: #f7f5f0;
 }
 
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 40px;
+    border-radius: 0 0 15vw 15vw;
+    margin: 1vw;
+}
+
+.banner div img {
+    width: 25vw;
+    height: auto;
+    border-radius: 15vw 15vw 0 0
+}
+
+.banner div h2 {
+    font-size: 5rem;
+    color: #4a7c59;
+    font-weight: bold;
+}
+
+.primeira {
+    padding: 3vw 7vw;
+}
+
+.primeira h3 {
+    font-size: 3.5rem;
+    color: #4a7c59;
+    font-weight: bold;
+    padding: 0 0 3vw 0;
+    text-align: center;
+}
+
+.primeira p {
+    font-size: 1.5rem;
+    color: #5a4634;
+    line-height: 2.5rem;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.hidratacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3vw 10vw;
+}
+
+.hidratacao div img {
+    width: 40vw;
+    height: auto;
+    border-radius: 1vw;
+}
+
+.hidratacao div h3 {
+    font-size: 4rem;
+    color: #4a7c59;
+    font-weight: bold;
+    padding: 0 0 2vw 0;
+}
+
+.segunda div p {
+    font-size: 1.5rem;
+    color: #5a4634;
+    line-height: 2.5rem;
+    text-align: justify;
+    font-weight: bold;
+    padding: 3vw 7vw;
+}
+
+.terceira img {
+    width: 70%;
+    height: auto;
+    border-radius: 7vw;
+}
+
+.terceira h3 {
+    font-size: 3.5rem;
+    color: #4a7c59;
+    font-weight: bold;
+    padding: 3vw 0 4vw 0;
+    text-align: center;
+}
+
+.terceira p {
+    font-size: 1.5rem;
+    color: #5a4634;
+    line-height: 2.5rem;
+    text-align: justify;
+    font-weight: bold;
+    padding: 0 7vw 3vw 7vw;
+}
+
+.adolescencia {
+    display: flex;
+    justify-content: space-between;
+    margin: 3vw 7vw;
+    align-items: center;
+}
+
+.adolescencia img {
+    width: 300vw;
+    height: auto;
+    border-radius: 1vw;
+}
+
+.adolescencia p {
+    font-size: 1.5rem;
+    color: #5a4634;
+    line-height: 2.5rem;
+    text-align: justify;
+    font-weight: bold;
+    padding: 0 3vw;
+}
+
+footer {
+    background-color: #88b990;
+    padding: 2vw 5vw;
+    text-align: center;
+    color: #f7f5f0;
+    font-weight: bold;
+}
+
+footer .redes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .redes img {
+    width: 10vw;
+    height: auto;
+}
+
+footer .rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 0 0 0;
+}
