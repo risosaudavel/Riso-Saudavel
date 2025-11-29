@@ -25,6 +25,7 @@ h1 {
 ul {
     display: flex;
     gap: 2vw;
+    align-items: center;
 }
 
 a {
@@ -82,23 +83,30 @@ a {
 }
 
 .hidratacao {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+     display: flex;
+     align-items: center;
     margin: 3vw 10vw;
 }
-
-.hidratacao div img {
-    width: 40vw;
+.tituloHidratacao hr{
+    border-top: 15px solid #88b990;
+    border-radius: 5px;
+    margin: 2vw 9vw;
+    width: 60%;
+}
+.hidratacao img {
+    width: 950px;
     height: auto;
     border-radius: 1vw;
+
 }
 
-.hidratacao div h3 {
-    font-size: 4rem;
+.hidratacao  h3 {
+    font-size: 3.9rem;
     color: #4a7c59;
     font-weight: bold;
     padding: 0 0 2vw 0;
+    margin: 0vw 9vw;
+    width: 40%;
 }
 
 .segunda div p {
@@ -108,7 +116,10 @@ a {
     text-align: justify;
     padding: 3vw 7vw;
 }
-
+.imgAdolecentes{
+    display: flex;
+    justify-content: center;
+}
 .terceira img {
     width: 70%;
     height: auto;
