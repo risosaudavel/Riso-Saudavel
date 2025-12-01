@@ -126,7 +126,7 @@ a {
     border-radius: 7vw;
 }
 
-.terceira h3 {
+.terceira h3{
     font-size: 3.5rem;
     color: #4a7c59;
     font-weight: bold;
@@ -190,4 +190,44 @@ footer .rodape {
     display: flex;
     justify-content: space-between;
     padding: 3vw 0 0 0;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .banner div h2 {
+    font-size: 1.5rem;
+    width: 90%;
+    }
+    .banner {
+    display: flex;
+    padding: 20px 0px;
+    margin-left: 6vw;
+    }
+    .banner div img {
+    width: 100px;
+    height: auto;
+    }
+    .primeira h3 {
+    font-size: 1.5rem;
+    }
+    .primeira p {
+    font-size: 1.1rem;
+    line-height: 30px;
+    }
+    .hidratacao {
+    display: block;
+    margin: 3vw 7vw;
+    }
+    .terceira{
+        margin: 3vw 7vw;
+    }
+    .hidratacao h3, .terceira h3{
+    font-size: 1.5rem;
+    padding: 0 0 2vw 0;
+    text-align: center;
+    margin: 0;
+    width: 99%;
+    }
+
 }
