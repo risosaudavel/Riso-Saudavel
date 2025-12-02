@@ -40,11 +40,13 @@ a.atual {
 }
 
 /*main*/
-section, .piramide {
+section,
+.piramide {
     text-align: center;
     margin: 3vw 5vw;
 }
-section img.bem{
+
+section img.bem {
     border-radius: 20px;
     width: 900px;
 }
@@ -55,22 +57,24 @@ h2 {
     font-size: 4rem;
     padding: 2vw 0 2vw 2vw;
     width: 80%;
-    margin-left: 8vw;
+    margin: 0 0 0 8vw;
 }
 
-section img.mal{
+section img.mal {
     border-radius: 50px;
     width: 550px;
     height: auto;
     padding-bottom: 1vw;
 }
-h3{
-   font-size: 3.5rem;
+
+h3 {
+    font-size: 3.5rem;
     color: #4a7c59;
-    font-weight: bold; 
+    font-weight: bold;
     padding: 2vw 0;
 }
-.esquerda h4{
+
+.esquerda h4 {
     font-size: 3.0rem;
     font-weight: bold;
     color: #e9c46a;
@@ -78,7 +82,7 @@ h3{
     text-align: left;
 }
 
-.direita h4{
+.direita h4 {
     font-size: 3.0rem;
     font-weight: bold;
     color: #e9c46a;
@@ -86,7 +90,7 @@ h3{
     text-align: end;
 }
 
-.esquerda p{
+.esquerda p {
     font-size: 1.5rem;
     color: #5a4634;
     line-height: 2.5rem;
@@ -95,7 +99,8 @@ h3{
     padding-bottom: 2vw;
     font-weight: bold;
 }
-.direita p{
+
+.direita p {
     font-size: 1.5rem;
     color: #5a4634;
     line-height: 2.5rem;
@@ -110,34 +115,36 @@ h3{
     margin: 2vw 5vw;
 }
 
-.maleficios p{
+.maleficios p {
     font-size: 1.7rem;
     color: #5a4634;
     line-height: 2.5rem;
     padding: 1vw 2vw;
 }
 
-.piramide p{
+.piramide p {
     font-size: 1.7rem;
     color: #5a4634;
     line-height: 2.5rem;
     padding: 0 5vw 2vw 5vw;
 }
 
-.imgPiramide{
+.imgPiramide {
     text-align: center;
 }
-ul.lista li{
+
+ul.lista li {
     font-size: 1.7rem;
     color: #f7f5f0;
     padding: 1vw 2vw;
     font-weight: bold;
 }
-ul.lista{
+
+ul.lista {
     display: block;
     background-color: #e9c46a;
     padding: 10px 8px;
-    margin:  2vw 30vw;
+    margin: 2vw 30vw;
     border-radius: 20px;
 }
 
@@ -167,4 +174,97 @@ footer .rodape {
     display: flex;
     justify-content: space-between;
     padding: 3vw 0 0 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+    header a {
+        font-size: 0.8rem;
+    }
+
+    .atual {
+        background-color: #cc6e3a;
+        padding: 5px 10px;
+        border-radius: 20px;
+    }
+
+    .banner div h2 {
+        font-size: 1.5rem;
+        width: 90%;
+    }
+
+    .banner {
+        display: flex;
+        padding: 20px 0px;
+        margin-left: 6vw;
+    }
+
+    .banner div img {
+        width: 100px;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        padding: 0;
+        width: 100%;
+        margin: 4vw 0;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+        padding-bottom: 5vw;
+    }
+
+    .esquerda h4, .direita h4 {
+        font-size: 1.3rem;
+        text-align: left;
+    }
+
+    .esquerda p, .direita p, .maleficios p, .piramide p {
+        font-size: 1.1rem;
+        line-height: 30px;
+        width: 100%;
+        text-align: justify;
+        padding-bottom: 4vw;
+    }
+
+    section img.mal {
+        width: 300px;
+        height: auto;
+        padding-bottom: 3vw;
+    }
+
+    .imgPiramide img {
+        width: 300px;
+        height: auto;
+    }
+
+    ul.lista {
+        display: block;
+        padding: 10px 8px;
+        margin: 2vw 3vw;
+    }
+    ul.lista li {
+    font-size: 1.1rem;
+    padding: 2vw;
+    }
+
+    footer a, footer p{
+        font-size: 0.8rem;
+        padding: 1vw;
+    }
+    footer .rodape{
+        display: block;
+    }
+    footer .redes svg  {
+    width: 40px;
+    height: auto;
+    margin-bottom: 1vw;
+    }
+    .rodape p{
+        padding-bottom: 3vw;
+    }
 }
